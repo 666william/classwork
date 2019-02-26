@@ -1,0 +1,29 @@
+#exercise 34
+number = int(input("Enter an integer:"))
+if number % 2 == 0:
+    print("it is even")
+else:
+    print("it is odd")
+
+# exercise 35
+
+human_years = int(input("please give me your age:"))
+
+
+if human_years <= 2:
+    dog_years = human_years * 10.5
+else :
+    human_years > 2
+    dog_years = 10.5 * 2 + (human_years - 2) * 4
+print(dog_years)
+
+#36
+letter = input("give me a letter of alphabet: ")
+
+if letter in "aeiou":
+	print("This letter is a vowel.")
+else:
+	print("This letter is a consonant.")
+  
+ #37
+	
