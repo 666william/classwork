@@ -26,4 +26,23 @@ else:
 	print("This letter is a consonant.")
   
  #37
+ sides = int(input("please give me the sides: "))
+if sides == 3:
+    print("it is a tranigle")
+if sides == 4:
+    print("it is a square")
+if sides == 5:
+    print("it is a pentagon")
+if sides == 6:
+    print("it is a hexagon")
+if sides == 7:
+    print("it is a heotagon")
+if sides == 8:
+    print("it is a octagon")
+if sides == 9:
+    print("it is a nonagon")
+if sides == 10:
+    print("it is a decagon")
+else:
+    print("error")
 	
