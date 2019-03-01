@@ -43,6 +43,36 @@ if sides == 9:
     print("it is a nonagon")
 if sides == 10:
     print("it is a decagon")
-else:
+
+    if sides > 10 or sides < 3:
     print("error")
+
+    
+  #48
+  year = int(input("please enter the year"))
+animal = year % 12 
+if animal == 0:
+    print("it is monkey year")
+elif animal == 1:
+    print("it is rooster year")
+elif animal == 2:
+    print("it is dog year")
+elif animal == 3:
+    print("it is pig year")
+elif animal == 4:
+    print("it is rat year")
+elif animal == 5:
+    print("it is ox year")
+elif animal == 6:
+    print("it is tiger year")
+elif animal == 7:
+    print("it is hare year")
+elif animal == 8:
+    print("it is dragon year")
+elif animal == 9:
+    print("it is snake year")
+elif animal == 10:
+    print("it is horse year")
+elif animal == 11:
+    print("it is sheep year")
 	
