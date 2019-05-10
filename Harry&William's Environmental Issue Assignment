@@ -1,0 +1,47 @@
+import time
+
+
+work_time = 0
+rest = 0
+question = 0
+working = True
+
+while working:
+    while work_time < 30:
+        print(work_time)
+        work_time += 1
+        time.sleep(0.2)
+    
+    question = input('It has been 30 minutes, press enter to take a rest, or input "N" to shut down the system: ')
+    if question == "n" or question == "N":
+        working = False
+        print("System shut down!")
+        break
+    
+    work_time = 0
+   
+    while rest < 5:
+        print(rest)
+        rest += 1
+        time.sleep(0.2)
+    
+    print("You have already rested for 5 minutes!")
+    
+    rest = 0
+    
+    print("-"*60)
+    while True: 
+        question = input('Do you want to continue working? Please enter "Y" or "N": ')
+        if question == "N" or question == "n":
+            print("-"*60)
+            print("System shut down.")
+            working = False
+            break
+        elif question == "Y" or question == "y":
+            print("-"*60)
+            print("System continue working.")
+            break
+        else:
+            print("-"*60)
+            print('Due to invalid input please try again.')
+        
