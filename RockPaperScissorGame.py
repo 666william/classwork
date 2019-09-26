@@ -61,8 +61,7 @@ while True:
             print("You Win!")
             player_score = player_score + 1
 
-    elif player_choice.upper() == "P":
-        if computer_choice == "R":
+    elif player_choice.upper() == "P":       if computer_choice == "R":
             print("You Win!")
             player_score = player_score + 1
         elif computer_choice == "P":
@@ -81,8 +80,8 @@ while True:
             print("Tie!")
             player_score = player_score + 1
 
-    game_number = game_number + 1
-
+    game_number = game_number + 
+#
 # Announcing Result.
 print("----- Result Summary --------------")
 print("Player's Score is " + str(player_score))
@@ -93,4 +92,4 @@ if player_score > computer_score:
 elif player_score < computer_score:
     print("You have lost this Rock-Paper-Scissor Game!")
 else:
-    print("The Game is tied!")
+    print("The Game is tied!") 
