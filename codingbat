@@ -1,0 +1,10 @@
+
+## List-1 > first_last6
+return nums[0] == 6 or nums[-1] == 6
+
+## List-1 > same_first_last
+return len(nums) >= 1 and nums[0] == nums[-1]
+
+##List-1 > make_pi
+
+
