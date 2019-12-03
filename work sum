@@ -1,0 +1,9 @@
+def numsum(a , b):
+    a = int(input("num:"))
+    b = int(input("num:"))   
+    return a + b
+    numsum(a , b)
+
+
+
+    
