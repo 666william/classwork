@@ -1,0 +1,5 @@
+def (a: float, b: float) -> float
+    a = float(ipnut()
+    b = float(ipnut()
+
+    Returns (a + b) / 2
